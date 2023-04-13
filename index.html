@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Third Assignment</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/661c20f1b6.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="nav-left-side">
+                <span class="logo">O</span>
+                <span class="logo-details"><span class="brand-name">SelectCare</span> | SRX > Admin</span>
+            </div>
+            <div class="nav-right-side">
+                <i class="fa-sharp fa-solid fa-bell"></i>
+                <i class="fa-sharp fa-solid fa-message"></i>
+                <i class="fa-sharp fa-solid fa-braille"></i>
+                <i class="fa-solid fa-circle-user"></i>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="side-bar">
+            <div class="side-icon"><i class="fa-solid fa-circle-plus"></i></div>
+            <div class="side-icon"><i class="fa-solid fa-user-group"></i></div>
+            <div class="side-icon"><i class="fa-solid fa-circle-exclamation"></i></div>
+            <div class="side-icon"><i class="fa-solid fa-folder"></i></div>
+            <div class="side-icon"><i class="fa-solid fa-building"></i></div>
+            <div class="side-icon"><i class="fa-solid fa-sliders"></i></div>
+            <div class="side-icon"><i class="fa-sharp fa-solid fa-tree-city"></i></div>
+        </div>
+        <div class="left-card">
+            <h1 class="manage-user">Manage User</h1>
+            <hr class="divider">
+            <div class="user-details-div">
+                <div class="user">
+                    <span>User</span>
+                    <i class="fa-solid fa-arrow-up"></i>
+                </div>
+                <div class="user-information-row">
+                    <!-- <div class="user-information-col">
+                        <div class="anchor-div">
+                            <a href="#">dev@testing.com</a>
+                            <div class="edit-delete">
+                                <button class="edit update-btn">Edit</button>
+                                <button class="delete update-btn">Delete</button>
+                            </div>
+                        </div>
+                        <hr>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+        <div class="right-card">
+            <div class="right-card-top">
+                <h1 class="manage-user">Name</h1>
+                <div class="detail">
+                    <span>DETAILS</span>
+                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                </div>
+            </div>
+            <hr class="divider">
+            <section class="form-section">
+                <form class="form">
+                    <div class="fields-data">
+                        <label for="form">USER DETAILS</label>
+                        <hr>
+                        <div class="form-two-sides">
+                            <div class="form-left">
+                                <label for="active">Active?</label> <br>
+                                <select class="parallel-input select-value" name="active" required>
+                                    <option value="0">No</option>
+                                    <option value="1">Yes</option>
+                                  </select>
+                            </div>
+                            <div class="form-right">
+                                <label for="vendor">Is Vendor?</label> <br>
+                                <select class="parallel-input vendor-value" name="vendor" required>
+                                    <option value="0">No</option>
+                                    <option value="1">Yes</option>
+                                  </select>
+                            </div>
+                        </div>
+                        <label for="firstName">First Name</label>
+                        <input class="full-input" type="text" id="firstName" id="first-name" required>
+                        <label for="lastName">Last Name</label>
+                        <input class="full-input" type="text" id="lastName" id="last-name" required>
+                        <label for="email">Email</label>
+                        <input class="full-input" type="email" id="email" id="email" required>
+                        <p>GoogleIntegration Email</p>
+                    </div>
+                    <hr>
+                    <div class="buttons">
+                        <button class="reset">RESET</button>
+                        <button class="save" type="submit">SAVE</button>
+                    </div>
+                </form>
+            </section>
+        </div>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
